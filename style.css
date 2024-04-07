@@ -1,0 +1,38 @@
+body{
+    background-image: url(Screenshot\ \(99\).png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: rgb(255, 255, 255);
+}
+.con{
+    height: 100px;
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+   
+}
+#b1{
+    background-color: black;
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom:0 ;
+    width: 60px;
+    height: 40px;
+    color: darkgrey;
+    cursor: pointer;
+}
+#b2{
+    background-color: black;
+    border: 0;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    width: 60px;
+    height: 40px;
+    color: darkgrey;
+    cursor: pointer;
+}
